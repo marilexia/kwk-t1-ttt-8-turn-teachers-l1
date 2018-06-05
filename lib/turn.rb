@@ -61,5 +61,6 @@ def turn(board)
   move(board, index, character="X")
 
   end
+  display_board(board)
 
 end
