@@ -55,7 +55,6 @@ def turn(board)
     puts "Try again. Please enter 1-9:"
     input = gets.strip
 
-  ##valid_move?(board, 0)
 
   index = input_to_index(input)
   # move(board, index)
