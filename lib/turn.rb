@@ -57,7 +57,6 @@ def turn(board)
 
 
   index = input_to_index(input)
-  # move(board, index)
   move(board, index, character="X")
 
   end
