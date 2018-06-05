@@ -59,7 +59,9 @@ def turn(board)
 
   index = input_to_index(input)
   # move(board, index)
-    move(board, index, character="X")
+  move(board, index, character="X")
+  update_array_at_with(board, index, character)
+  display_board(board)
 end
 
 end
